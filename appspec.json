@@ -1,83 +1,39 @@
 {
   "settings": [
-    {
-      "id": "testString",
-      "name": "Insert title of string setting",
-      "description": "Insert description for string setting",
-      "defaultValue": null,
-      "type": "STRING"
-    },
-    {
-      "id": "testInstant",
-      "name": "Insert title of instant setting",
-      "description": "Insert description for instant setting",
-      "defaultValue": null,
-      "type": "INSTANT"
-    },
-    {
-      "id": "testString2",
-      "name": "Insert title of String setting",
-      "description": "Insert description for string setting",
-      "defaultValue": null,
-      "type": "RADIOBUTTONS",
-      "options": [
-        {
-          "value": "example-value",
-          "displayText": "Example option"
-        }
-      ]
-    }
   ],
   "dependencies": {
     "R": [
       {
-        "name": "lubridate",
-        "version": "1.7.10"
+        "name": "move",
       },
       {
-        "name": "move"
+        "name": "ctmm"
       }
     ]
   },
-  "createsArtifacts": true,
   "license": {
     "key": "MIT"
   },
   "language": "eng",
   "keywords": [
-    "example",
-    "template"
+    "coertion",
+    "MoveStack",
+    "telemetry"
   ],
   "people": [
     {
-      "firstName": "Charles",
-      "middleInitials": null,
-      "lastName": "Darwin",
-      "email": "creator@example.com",
-      "roles": [
-        "author",
-        "creator"
-      ],
-      "orcid": null,
-      "affiliation": null,
-      "affiliationRor": null
-    }
-  ],
-  "funding": [
-    {
-	"name": "funder name",
-	"comment": "grant for App"
-    }
-  ],
-  "references": [
-    {
-	"type": "IsDescribedBy",
-	"note": "Darwin, C. 1900. The creation. Journal XY. 1-2",
-	"url": "https://anylink.xyz"
+      "firstName": "Anne",
+      "middleInitials": "K",
+      "lastName": "Scharf",
+      "email": "ascharf@ab.mpg.de",
+      "roles": ["author", "creator"],
+      "orcid": "0000-0002-3357-8533",
+      "affiliation": "Max-Planck-Institute of Animal Behavior",
+      "affiliationRor": "https://ror.org/026stee22"
     }
   ],
   "documentation": {
-    "url": "https://github.com/movestore/my-app/README.md"
+    "url": "https://github.com/movestore/moveStack2telemetry/blob/master/README.md"
   }
 }
 
