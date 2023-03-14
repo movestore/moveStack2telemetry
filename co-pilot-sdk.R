@@ -4,10 +4,10 @@
 ## Provided testing datasets in `./data/raw`: 
 ## "input1_pigeons.rds", "input2_geese.rds", "input3_stork.rds", "input4_goat.rds"  
 ## for own data: file saved as a .rds containing a object of class MoveStack
-inputFileName = "./data/raw/input1_greylgeese.rds" 
+inputFileName = "./data/raw/input4_goat.rds" 
 
 ## optionally change the output file name
-unlink("./data/output/", recursive = TRUE) # delete "output" folder if it exists, to have a clean start for every run
+# unlink("./data/output/", recursive = TRUE) # delete "output" folder if it exists, to have a clean start for every run
 dir.create("./data/output/") # create a new output folder
 outputFileName = "./data/output/output.rds" 
 
@@ -22,7 +22,7 @@ outputFileName = "./data/output/output.rds"
 #    args[["username"]] = "my_username"
 #    args[["department"]] = "my_department"
 
-#args <- list() # if your function has no arguments, this line still needs to be active
+args <- list() # if your function has no arguments, this line still needs to be active
 # Add all your arguments of your r-function here
 #args[["year"]] = 2014 
 
