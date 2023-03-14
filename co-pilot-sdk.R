@@ -7,7 +7,7 @@
 inputFileName = "./data/raw/input4_goat.rds" 
 
 ## optionally change the output file name
-# unlink("./data/output/", recursive = TRUE) # delete "output" folder if it exists, to have a clean start for every run
+unlink("./data/output/", recursive = TRUE) # delete "output" folder if it exists, to have a clean start for every run
 dir.create("./data/output/") # create a new output folder
 outputFileName = "./data/output/output.rds" 
 
