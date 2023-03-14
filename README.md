@@ -8,7 +8,7 @@ Github repository: https://github.com/movestore/moveStack2telemetry
 Transformation of data in class MoveStack to class telemetry.list 
 
 ## Documentation
-If the data is downloaded from movebank, be aware that although most attributes are kept, some attributes associated to the animals and locations can be lost in this transformation.
+Be aware that although most attributes are kept, some attributes associated to the animals and locations can be lost in this transformation.
 
 ### Input data
 MoveStack
